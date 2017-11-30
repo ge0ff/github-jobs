@@ -6,7 +6,6 @@
 //  Copyright © 2017 cornbits. All rights reserved.
 //
 
-import Foundation
 import Alamofire
 import SwiftyJSON
 
