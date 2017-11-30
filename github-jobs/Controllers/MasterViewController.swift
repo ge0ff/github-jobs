@@ -21,7 +21,6 @@ class MasterViewController: UITableViewController {
         sortButton.setImage(UIImage(named: "SortBarButton"), for: UIControlState.normal)
         sortButton.addTarget(self, action: #selector(presentSortActionSheet(_:)), for: UIControlEvents.touchUpInside)
         let barButton = UIBarButtonItem(customView: sortButton)
-        barButton.tintColor = UIColor.blue
         navigationItem.rightBarButtonItem = barButton
 
         // ipad setup
